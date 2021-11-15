@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\glm\;CMake Files\lib\glm\cmake\;CMake Files\lib\glm\glm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/User/Desktop/Projects/SAT/cmake-build-debug/lib/glm"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Projects/SAT/cmake-build-debug/lib/glm/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Projects/SAT/cmake-build-debug/lib/glm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Projects/SAT/cmake-build-debug/lib/glm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Projects/SAT/cmake-build-debug/lib/glm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="C:/Users/User/Desktop/Projects/SAT/cmake-build-debug/lib/glm"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Projects/SAT/cmake-build-debug/lib/glm/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="C:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Projects/SAT/cmake-build-debug/lib/glm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Projects/SAT/cmake-build-debug/lib/glm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/User/Desktop/Projects/SAT/cmake-build-debug/lib/glm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/User/Desktop/Projects/SAT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Projects/SAT/lib/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Projects/SAT/lib/glm/cmake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glm\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Desktop/Projects/SAT/lib/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glm\glm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
